@@ -10,17 +10,17 @@
   "env": {
     "ANTI_LINK": {
       "description": "true/false",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "ANTILINK_ACTION": {
       "description": "kick",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "RMBG_KEY": {
       "description": "Remove bg api key ",
-      "required": false,
+      "required": true,
       "value": ""
     }, 
     "SESSION_ID": {
@@ -30,25 +30,25 @@
     },
     "HANDLERS": {
       "description": "prefix for commands, enter false for no prefix",
-      "required": false,
+      "required": true,
       "value": ""
     },
     "PACKNAME": {
       "description": "Sticker Packname",
-      "required": false
+      "required": true
     },
 
     "GOODBYE_MSG": {
       "description": "goodbye Message",
-      "required": false
+      "required": true
     },
     "AUTHOR": {
       "description": "Sticker Pack AUTHOR",
-      "required": false
+      "required": true
     },
     "SUDO": {
       "description": "sudo numbers with country code seperate with , for multiple numbers",
-      "required": false
+      "required": true
     },
     "HEROKU_APP_NAME": {
       "description": "Heroku app name, same as above entered",
